@@ -13,5 +13,11 @@
 
 body {
   color: var(--foreground-rgb);
-  padding: 1rem;
+  
+}
+
+@layer base {
+  h1 {
+    @apply font-medium text-2xl mb-3;
+  }
 }
